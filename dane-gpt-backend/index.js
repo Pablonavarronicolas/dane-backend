@@ -11,7 +11,6 @@ app.use(cors({
 
 const port = 3000;
 
-app.use(cors());
 app.use(express.json());
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
