@@ -160,7 +160,7 @@ Want to Want Me – Jason Derulo
 ];
 
 app.post('/chat', async (req, res) => {
-  const { prompt } = req.body;
+  const { message: prompt } = req.body;
 
   if (!prompt || typeof prompt !== 'string') {
     return res.status(400).json({ error: 'Mensaje inválido' });
