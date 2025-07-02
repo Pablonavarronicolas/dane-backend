@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://pablonavarronicolas.github.io'
+  origin: '*'
 }));
 
 const port = 3000;
