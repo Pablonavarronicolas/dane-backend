@@ -4,6 +4,11 @@ const { OpenAI } = require('openai');
 require('dotenv').config();
 
 const app = express();
+
+app.use(cors({
+  origin: 'https://pablonavarronicolas.github.io'
+}));
+
 const port = 3000;
 
 app.use(cors());
