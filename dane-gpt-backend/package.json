@@ -1,21 +1,18 @@
 {
-  "name": "nodejs",
+  "name": "dane-gpt-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend para GPT en Railway",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11",
-    "axios": "^1.10.0",
-    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "openai": "^5.8.0"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
   }
 }
